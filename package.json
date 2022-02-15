@@ -5,8 +5,12 @@
     "dev": "next dev",
     "build": "next build",
     "lint": "next lint",
+    "start":"next start -H 0.0.0.0 -p $PORT",
+    "start:dev":"next start",
+    "start:prod":"next start -p 80",
     "serve-json": "json-server --watch db.json --port 4000",
-    "start":"yarn dev"
+    "export":"next build && next export"
+   
   },
   "dependencies": {
     "json-server": "^0.17.0",

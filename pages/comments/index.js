@@ -1,6 +1,5 @@
-
 import {useState} from 'react'
-function index() {
+function Index() {
     const[comments,setComments]=useState([])
     const[comment,setComment]=useState('')
 
@@ -42,4 +41,4 @@ function index() {
   )
 }
 
-export default index
+export default Index

@@ -1,7 +1,24 @@
 {
   "/_app": "pages/_app.js",
+  "/api/blog": "pages/api/blog.js",
+  "/api/comment": "pages/api/comment.js",
+  "/api/dashboard": "pages/api/dashboard.js",
+  "/api": "pages/api.js",
+  "/comments": "pages/comments.html",
+  "/dashboard": "pages/dashboard.html",
+  "/events": "pages/events.js",
+  "/feature/[...docs]": "pages/feature/[...docs].html",
+  "/": "pages/index.html",
+  "/news/[category]": "pages/news/[category].js",
+  "/news": "pages/news.js",
+  "/posts/[postid]": "pages/posts/[postid].js",
+  "/posts": "pages/posts.js",
+  "/product/[productid]": "pages/product/[productid].html",
+  "/product/[productid]/review/[reviewid]": "pages/product/[productid]/review/[reviewid].html",
+  "/product/home": "pages/product/home.html",
+  "/product": "pages/product.html",
+  "/users": "pages/users.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/comments": "pages/comments.js",
-  "/api/comment": "pages/api/comment.js"
+  "/404": "pages/404.html"
 }

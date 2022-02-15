@@ -1,6 +1,6 @@
 
 import {useRouter} from 'next/router'
-function index() {
+function Index() {
   const router = useRouter()
   const value=router.query.productid
   return (
@@ -10,4 +10,4 @@ function index() {
   )
 }
 
-export default index
+export default Index

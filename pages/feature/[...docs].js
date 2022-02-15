@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router'
 
-function docs() {
+function Docs() {
     const router=useRouter()
     const {params=[]}=router.query
    
@@ -15,4 +15,4 @@ function docs() {
   )
 }
 
-export default docs
+export default Docs

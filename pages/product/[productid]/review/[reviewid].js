@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router'
 
-function reviewid() {
+function Reviewid() {
     const router=useRouter();
     const {productid,reviewid}=router.query
   return (
@@ -8,4 +8,4 @@ function reviewid() {
   )
 }
 
-export default reviewid
+export default Reviewid

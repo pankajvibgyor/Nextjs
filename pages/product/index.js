@@ -1,7 +1,7 @@
 import Link from "next/link"
 import {useRouter} from 'next/router'
 
-function index({productId=100}) {
+function Index({productId=100}) {
   const router=useRouter()
   const handelChange=()=>{
     alert('order is placed succesfully')
@@ -20,4 +20,4 @@ function index({productId=100}) {
   )
 }
 
-export default index
+export default Index

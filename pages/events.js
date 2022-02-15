@@ -1,6 +1,6 @@
 import {useState} from 'react' 
 import {useRouter} from 'next/router'
-function events({eventList}) {
+function Events({eventList}) {
     const [events,setEvents]=useState(eventList)
     const router=useRouter()
     const fetchSportsEvents=async()=>{
@@ -29,7 +29,7 @@ function events({eventList}) {
   )
 }
 
-export default events
+export default Events
 export async function getServerSideProps(context){
     const {query}=context
     const {category}=query
